@@ -12,24 +12,24 @@ last_name = 'Earl'
 
 
 
-# print()
+print()
 #comment the lines when not in use for program to run smoothly
-# #This will display DerekEarl
-# print(first_name + last_name)
-# #This will display Hello Derek Earl
-# print('Hello ' + first_name + ' ' + last_name)
+# This will display DerekEarl
+print(first_name + last_name)
+#This will display Hello Derek Earl
+print('Hello ' + first_name + ' ' + last_name)
 
-# print()
-# sentence = 'zelda series is the best'
-# #displays all capital letters
-# print(sentence.upper())
-# #displays all lowercase letters
-# print(sentence.lower())
-# # capitalizes the first letter
-# print(sentence.capitalize())
-# # displays the number of times a certain letter appears
-# #try putting in another letter such as z or x
-# print(sentence.count('s'))
+print()
+sentence = 'zelda series is the best'
+#displays all capital letters
+print(sentence.upper())
+#displays all lowercase letters
+print(sentence.lower())
+# capitalizes the first letter
+print(sentence.capitalize())
+# displays the number of times a certain letter appears
+#try putting in another letter such as z or x
+print(sentence.count('s'))
 
 # Functions help us format strings we save  to files and databases, or display to users
 first_name = input ('What is your first name? ')

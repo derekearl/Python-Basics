@@ -1,3 +1,5 @@
+# Beginning assignment demonstrating how to make print statements
+
 print ('Hello world')
 
 name = input('What is your name:  ')
