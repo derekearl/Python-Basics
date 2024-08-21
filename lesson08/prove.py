@@ -18,12 +18,12 @@ for i in range(len(word)):
     
 print ()
 
-print ()
+
 guess = ''
 attempts = 0
 
 while guess.lower() != word:
-    hint = ''
+    hint = []
     attempts += 1
     # Ask for a guess
     guess = input ('What is your guess? ')

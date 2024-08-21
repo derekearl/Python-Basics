@@ -40,7 +40,10 @@ first_name = 'Derek'
 for letter in first_name:
     print (f'The letter is: {letter}')
 
-word = input ('Type a five letter word!')
+print()
+
+# This will spell a word backwards
+word = input ('Type a five letter word!: ')
 first_letter = word[0]
 second_letter = word[1]
 third_letter = word[2]
