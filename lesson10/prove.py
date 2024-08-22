@@ -5,9 +5,9 @@ print ('Welcome to the shopping cart program')
 items = []
 prices = []
 new_items = ''
-while new_items == True:
+input ('Please select one of the following: ')
+while input == True:
     print()
-    print ('Please select one of the following: ')
     print ('1. Add Item')
     print ('2. View Cart')
     print ('3. Remove Item')
