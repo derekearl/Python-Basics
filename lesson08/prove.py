@@ -22,14 +22,14 @@ print ()
 guess = ''
 attempts = 0
 
-while guess.lower() != word:
-    hint = []
+while guess != word:
+    hint = ''
     attempts += 1
     # Ask for a guess
     guess = input ('What is your guess? ')
 
     # If the guess is correct, then give them a congrats
-    if guess == word.lower():
+    if guess == word:
         print (f"Congrats you guessed the word '{word}' in {attempts} attempts! ")
 
     # If the guess is not equal to the number of letters from the hint, give a error message
@@ -51,9 +51,7 @@ while guess.lower() != word:
             hint += guess[i].upper()
         elif guess[i] in word:
             hint += guess[i].lower()
-        else:
-            hint += "_ "
-         
+    else:
             print(f"Hint: {hint}")
 
-print ('Game Over')
+print ('Try changing the word and play again!')
