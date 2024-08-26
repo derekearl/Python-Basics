@@ -24,11 +24,19 @@ print()
 
 # You can also add some names until you don't want to using a while loop
 items = []
-
 new_items = ''
+
+# Use while loop to add items or type quit
 while new_items != 'quit':
     new_items = input ('What items are you buying? ')
-    items.append(new_items)
+
+    # Will not add the word quit to the list.
+    if new_items != 'quit':
+        #adds items to the list
+        items.append(new_items)
+
+print()
+print ('The Items you added are: ')
 
 for item in items:
-    print(item)
+    print (item)

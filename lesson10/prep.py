@@ -45,6 +45,6 @@ for i in range(len(names)):
 print()
 
 # You can also remove items from a list. The best way to do that is to use the 'pop' function
-the_list.pop(2) # Will remove the item at index 2
+the_list.pop(1) # Will remove the item at index 2
 the_list.pop() # Will just removes the last item (In this case item2 will be removed)
 print(the_list)
