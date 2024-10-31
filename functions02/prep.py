@@ -102,7 +102,7 @@ number2 = float(input ('Enter another number: '))
 # Call the sqrt function and store its return value
 root = math.sqrt(number2)
 
-print (f'The saqure root of the number is: {root:.2f}')
+print (f'The saqure root of the number is: {root:.2f}') # If you want to round whole do :.0f
 
 # Use if-then statement like in the last example
 if root < 100:
