@@ -1,6 +1,8 @@
 # Prove Exercise from BYU-Idaho CSE 111 Review over basic code
 
 # Calculating Tire Pressure from input of user
+
+# call and import math class
 import math
 
 

@@ -32,7 +32,7 @@ print (f'The distance is: {distance:.6e} meters')
 
 print()
 
-# The next exampel will display thousands grouping
+# The next example will display thousands grouping
 
 big_number = 123456789
 
